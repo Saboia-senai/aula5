@@ -13,6 +13,7 @@ public class PessoaJuridica extends Funcionario {
     }
     public void calculaSalario() {
         salarioCalculado = valorBruto - impostos;
-        System.out.println("💰 Salário PJ calculado: R$ " + String.format("%.2f", salarioCalculado));
+        System.out.println("Salário PJ calculado: R$ " + String.format("%.2f", salarioCalculado));
     }
 }
+
