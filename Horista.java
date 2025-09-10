@@ -15,6 +15,7 @@ public class Horista extends Funcionario {
    
     public void calculaSalario() {
         salarioCalculado = valorHora * quantidadeHoras;
-        System.out.println("💰 Salário HORISTA calculado: R$ " + String.format("%.2f", salarioCalculado));
+        System.out.println("Salário HORISTA calculado: R$ " + String.format("%.2f", salarioCalculado));
     }
+
 }
