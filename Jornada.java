@@ -17,9 +17,10 @@ public class Jornada extends Funcionario {
     @Override
     public void calculaSalario() {
         salarioCalculado = salarioHora * horasTrabalhadasDiarias * diasTrabalhados;
-        System.out.println("💰 Salário JORNADA calculado: R$ " + String.format("%.2f", salarioCalculado));
+        System.out.println("Salário JORNADA calculado: R$ " + String.format("%.2f", salarioCalculado));
     }
 }
+
 
 
 
