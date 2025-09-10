@@ -20,7 +20,7 @@ public abstract class Funcionario {
     public abstract void calculaSalario();
     
     public void exibirDados() {
-        System.out.println("\n=== DADOS DO FUNCIONÁRIO ===");
+        System.out.println("DADOS DO FUNCIONÁRIO");
         System.out.println("Nome: " + nome);
         System.out.println("Departamento: " + departamento);
         System.out.println("Salário: R$ " + String.format("%.2f", salarioCalculado));
@@ -29,4 +29,5 @@ public abstract class Funcionario {
     
     public String getNome() { return nome; }
     public void setNome(String nome) { this.nome = nome; }
+
 }
